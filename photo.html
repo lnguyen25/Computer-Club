@@ -2,10 +2,17 @@
 <html>
     <head> 
         <style>
-        body{
+        .bold {
+            font-weight: bold
+        }
+        .highlightred {
+            background-color:yellow;
+           }
+        body {
             color: red; 
             background-color: purple;
-        } 
+
+        }
         h1 { 
             color: blue;
             font-size: 100px;
@@ -13,7 +20,9 @@
          th, td {
              border: 1px solid white;
          }
-         
+         #MyParagraph {
+        background-color:rgb(127, 204, 255)
+         }
          table {
         border-collapse: collapse 
          }
@@ -22,8 +31,14 @@
         <title>My Title</title>
     </head>
     <body>
+ <p class="highlightred">Hello</p>
+ <p class="highlightred bold">Hiya</p>
+ 
 <h1>This is blue.</h1>
 <p>This text is red.</p>
+<p id="MyParagraph">
+    Hi
+    </p>
     </body>    
 </html>
 
